@@ -91,7 +91,7 @@ class Invader(pygame.sprite.Sprite):
 # Pygameの初期化
 pygame.init()
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Space Invaders")
+pygame.display.set_caption("Space Invaders v0.1")
 clock = pygame.time.Clock()
 
 # スプライトグループ
